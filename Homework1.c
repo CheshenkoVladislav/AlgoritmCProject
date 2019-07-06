@@ -66,7 +66,7 @@ typedef struct cell {
 
 int compareColor(int x1, int y1, int x2, int y2) {
 	Cell cell1;
-	cell1.color = (x1 % 2 == 0 && y1 % 2 == 0) || (x1 % 2 == 0 && y1 % 2 == 0);
+	cell1.color = (x1 % 2 == 0 && y1 % 2 == 0) || (x1 % 2 == 0 && y1 % 2 == 0) ? BLACK : WHITE;
 	Cell cell2;
 	cell2.color = (x2 % 2 == 0 && y2 % 2 == 0) || (x2 % 2 == 0 && y2 % 2 == 0) ? BLACK : WHITE;
 	return cell1.color == cell2.color;
