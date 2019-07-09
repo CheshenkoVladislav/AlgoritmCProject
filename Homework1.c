@@ -2,7 +2,7 @@
  * Main.c
  *
  *  Created on: 23 июн. 2019 г.
- *      Author: vlad
+ *      Author: Vladislav Cheshenko
  */
 #include <stdio.h>
 #include <stdlib.h>
